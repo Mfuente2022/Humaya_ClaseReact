@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+}
+/*main{
+    background-color: rgb(18, 18, 18);
+}*/
+.logo {
+    max-width: 50vh;
+    max-height: 50vh;
+}
+.list-group-item {
+    border: none;
+}
+.navbar-collapse{
+    align-content: flex-end;
+}
+.m-3{
+    color: aliceblue;
+}
+
+#fondoBienvenida {
+    background-image: url(./imagenes/imagenCentral.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+/*Card */
+.cardGenerales {
+    border: none;
+    background-color: transparent;
+    margin: none;
+    color: white;
+}
+.card-img-top {
+    width: 100%;
+    display: block;
+}
+.bg-black{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.bg-alfajor{
+    text-align: center;
+}
+.card-group{
+    background-color: rgb(18, 18, 18);
+}
+.card-footer{
+    background-color: rgb(18, 18, 18);
+}
+
+
+
+/* titulos*/
+.text-pink {
+    color: #d5ac8c;
+}
+.text-brown{
+    color: #63421e;
+}
+/*textos*/
+.colorTituloLogo{
+    text-align: center;
+    font-weight: bold;
+}
+.card-text{
+    color: aliceblue;
+}
+.text-brown{
+    font-weight: bold;
+}
+.calidadeIconos{
+    text-align: center;
+}
+.textoConsulta{
+    color: #fff;
+    font-weight: bold;
+}
+/* Botones */
+.btn-dark{
+    border-radius: 25px;
+    width: auto;
+    background-color: rgba(2, 2, 2, 0.5);
+    font-weight: bold;
+}
+.btn-primary {
+    background-color:rgb(18, 18, 18);
+    color: #d5ac8c;
+    border-color: #d5ac8c;
+}
+.btn-primary:hover {
+    background-color: #212529;
+    border-color: #d5ac8c;
+    color: #d5ac8c;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #d5ac8c;
+    border-color: #63421e;
+    color: #63421e;
+    font-weight: bold;
+    border-width: 2px;
+
+}
+.btn-secondary:hover {
+    background-color: #212529;
+    border-color: #825628;
+    color: #825628;
+    font-weight: bold;
+}
+
+.btn-info {
+    background-color: white;
+    border-color: #63421e;
+    color: #63421e;
+}
+
+/* fondos */
+.bg-black {
+    background-color: rgb(18, 18, 18);
+}
+.bg-alfajor {
+    background-color: #d5ac8c;
+}
+.card {
+    border: none;
+}
+
+
+/*Media query*/
+@media screen and (min-width: 480px) and (max-width: 940px) {
+    .cardGenerales {
+        color: black;
+    }
+    #img-form {
+    display: none;
+    }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1300px) {
+    #fondoBienvenida {
+        height: 100%;
+    }
+    #redes {
+        margin: 0;
+    }
+    #contenedorBienvenida {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+        min-height: 1000px;
+    }
+    .contenedorTexto {
+        margin: 4rem;
+    }
+    #fondoDeHeader {
+        min-height: 700px;
+    }
+}
+
+@media screen and (min-width: 1301px) {
+    #contenedorBienvenida {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-end;
+    }
+    .contenedorTexto {
+        margin: 4rem;
+    }
+}
+
+
