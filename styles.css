@@ -129,6 +129,10 @@
 
 /*Media query*/
 @media screen and (min-width: 480px) and (max-width: 940px) {
+    nav > div >ul {
+        width:100%;
+        justify-content:space-evenly;
+         }
     .cardGenerales {
         color: black;
     }
@@ -138,6 +142,10 @@
 }
 
 @media screen and (min-width: 941px) and (max-width: 1300px) {
+    nav > div >ul {
+        width:100%;
+        justify-content:space-evenly;
+         }
     #fondoBienvenida {
         height: 100%;
     }
@@ -159,6 +167,10 @@
 }
 
 @media screen and (min-width: 1301px) {
+    nav > div >ul {
+        width:100%;
+        justify-content:space-evenly;
+         }
     #contenedorBienvenida {
         display: flex;
         flex-flow: row nowrap;
